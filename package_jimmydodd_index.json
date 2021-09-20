@@ -1,0 +1,65 @@
+{
+  "packages":
+  [
+    {
+      "name": "Butterfly",
+      "maintainer": "Melody Innovation",
+      "websiteURL": "http://melodyinnovation.com.au",
+      "email" : "hello@melodyinnovation.com.au",
+      "platforms":
+      [
+        {
+          "name": "Jimmy Dodd Butterfly Dev Board",
+          "architecture": "samd",
+          "version": "0.1.0",
+          "category": "Contributed",
+          "url": "https://github.com/melodyinnovation/arduino/Jimmy_Dodd.zip",
+          "archiveFileName": "Jimmy_Dodd.zip",
+          "checksum": "SHA:9fafead0dfe73a3c7d7d4695e69f1d818bb3141c",
+          "size": "4110765",
+          "boards": [
+            {
+              "name": "Butterfly"
+            }
+          ],
+          "toolsDependencies":
+          [
+            {
+                    "packager": "arduino",
+                    "name": "arm-none-eabi-gcc",
+                    "version": "4.8.3-2014q1"
+                  },
+                  {
+                    "packager": "MattairTech_Arduino",
+                    "name": "bossac",
+                    "version": "1.7.0-mattairtech-3"
+                  },
+                  {
+                    "packager": "arduino",
+                    "name": "openocd",
+                    "version": "0.9.0-arduino"
+                  },
+                  {
+                    "packager": "arduino",
+                    "name": "CMSIS",
+                    "version": "4.5.0"
+                  },
+                  {
+                    "packager": "MattairTech_Arduino",
+                    "name": "CMSIS-Atmel",
+                    "version": "1.0.0-mattairtech-2"
+                  },
+                  {
+                    "packager": "arduino",
+                    "name": "arduinoOTA",
+                    "version": "1.2.0"
+                  }
+          ]
+        }
+      ],
+      "tools":
+      [
+      ]
+    }
+  ]
+}
