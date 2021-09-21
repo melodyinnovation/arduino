@@ -15,8 +15,8 @@
           "category": "Contributed",
           "url": "https://raw.githubusercontent.com/melodyinnovation/arduino/main/Jimmy_Dodd.zip",
           "archiveFileName": "Jimmy_Dodd.zip",
-          "checksum": "SHA-256:34d92edfc6c1e42568fe3249a1f2c12f999818a1bdc25400f6b5c74c7cda646b",
-          "size": "4110765",
+          "checksum": "SHA-256:7caf836695fd839430abf613ee7876b6403275a43bc38bf8ba592d0c375c316d",
+          "size": "1033617",
           "boards": [
             {
               "name": "Butterfly"
